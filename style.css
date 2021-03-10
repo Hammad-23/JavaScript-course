@@ -1,0 +1,50 @@
+#main{
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.row{
+    padding-top: 30px;
+}
+
+.inp{
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.btn{
+    background-color: yellow;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 60px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkblue;
+    color: white;
+    height: 70px;
+}
+
+.element{
+    font-size: 20px;
+}
+
+table,th,tr,td{
+    border: 1px solid black;
+}
+
+#img{
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
