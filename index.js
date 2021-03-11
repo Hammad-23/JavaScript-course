@@ -310,37 +310,45 @@
 // Street fighter console game
 
 
-// var fighters = ['Ken', 'Ryo', 'Ehonda', 'Dhalsim', 'M Bison', 'Jack', 'Akuma']
-// var userFighter=prompt("Select fighter")
-// var select=fighters.includes(userFighter)
-// var random=Math.random()*6
-// var round=Math.round(random)
-// if(select){
-//     alert(userFighter+" vs "+fighters[round])
-// }else{
-//     alert('invalid')
-// }
-// var cpu={
-//     name:fighters[round],
-//     health1:100
-// }
-// var user={
-//     name:userFighter,
-//     health2:100
-// }
-// var moves={
-//     punch:30,
-//     kick:20,
-//     special:50
-// }
-// var move1=prompt('enter move')
-// if(move1==="punch"){
-// cpu.health1= cpu.health1-moves.punch
-// console.log("health of cpu "+cpu.health1)
-// console.log("health of 2 "+user.health2)
-// }
+var fighters = ['Ken', 'Ryo', 'Ehonda', 'Dhalsim', 'M Bison', 'Jack', 'Akuma']
+var userFighter=prompt("Select fighter")
+var select=fighters.includes(userFighter)
+var random=Math.random()*6
+var round=Math.round(random)
+if(select){
+    alert(userFighter+" vs "+fighters[round])
+}else{
+    alert('invalid')
+}
+var cpu={
+    name:fighters[round],
+    health1:100
+}
+var user={
+    name:userFighter,
+    health2:100
+}
+var moves={
+    punch:30,
+    kick:20,
+    special:50
+}
+
+while(user.health2>0 && cpu.health1>0){
+var move1=prompt("enter move")
+if(move1==="punch"){
+cpu.health1= cpu.health1-moves.punch
+console.log("health of cpu "+cpu.health1)
+console.log("health of 2 "+user.health2)
+
+}
+
+}
 
 
+
+
+  
 
 
 
