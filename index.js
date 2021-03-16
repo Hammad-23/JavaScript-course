@@ -310,45 +310,98 @@
 // Street fighter console game
 
 
-var fighters = ['Ken', 'Ryo', 'Ehonda', 'Dhalsim', 'M Bison', 'Jack', 'Akuma']
-var userFighter=prompt("Select fighter")
-var select=fighters.includes(userFighter)
-var random=Math.random()*6
-var round=Math.round(random)
-if(select){
-    alert(userFighter+" vs "+fighters[round])
-}else{
-    alert('invalid')
-}
-var cpu={
-    name:fighters[round],
-    health1:100
-}
-var user={
-    name:userFighter,
-    health2:100
-}
-var moves={
-    punch:30,
-    kick:20,
-    special:50
-}
+// var fighters = ['Ken', 'Ryo', 'Ehonda', 'Dhalsim', 'M Bison', 'Jack', 'Akuma']
+// var userFighter=prompt("Select fighter")
+// var select=fighters.includes(userFighter)
+// var random=Math.random()*6
+// var round=Math.round(random)
+// if(select){
+//     alert(userFighter+" vs "+fighters[round])
+// }else{
+//     alert('invalid')
+// }
+// var cpu={
+//     name:fighters[round],
+//     health1:100
+// }
+// var user={
+//     name:userFighter,
+//     health2:100
+// }
+// var moves={
+//     punch:30,
+//     kick:20,
+//     special:50
+// }
 
-while(user.health2>0 && cpu.health1>0){
-var move1=prompt("enter move")
-if(move1==="punch"){
-cpu.health1= cpu.health1-moves.punch
-console.log("health of cpu "+cpu.health1)
-console.log("health of 2 "+user.health2)
-
-}
-
-}
+// while(user.health2>0 && cpu.health1>0){
+// var move1=prompt("enter move")
+// if(move1==="punch"){
+// cpu.health1= cpu.health1-moves.punch
+// console.log("health of cpu "+cpu.health1)
+// console.log("health of 2 "+user.health2)
 
 
+// }
+
+// }
+
+
+// initialization part 
+// conditional part 
+// incremental/decremental part
+
+
+
+
+
+// var range=+prompt("Enter range")
+// var sum=""
+// for(var i=1; i<=range; i++ ){
+//  sum=sum+"*"
+//  console.log(sum)
+
+// }
+
+
+
+
+
+// var num=+prompt("Enter number")
+
+// if(num % 2 == 0){
+//     alert("Even")
+// }else{
+//     alert("Odd")
+// }
+
+
+
+
+// Functions
+
+// var answer;
+// function sum(num1,num2){
+ 
+  
+//     answer= num1+num2
+//     return console.log( answer)
+
+// }
+// sum(10,5)
+
+// console.log(answer)
+
+
+// function next(){
+//   console.log(answer)
+// }
+// next()
 
 
   
+
+
 
 
 
