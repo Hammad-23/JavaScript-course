@@ -234,26 +234,25 @@
 // }
 
 
+// fetch('https://jsonplaceholder.typicode.com/todos/1')
+// .then(res=>res.json())
+// .then(res=>{console.log(res)})
 
 
 
+function signUp(){
+    var emailId=document.getElementById("email").value
+    var password=document.getElementById("pass").value
 
+     localStorage.setItem("userId",emailId)
+    localStorage.setItem("userPass",password)
+    window.location.href="home.html"
+   
 
+}
 
+         
 
   
-
-
-
-
-
-
-
-
-
-
-
-    
-    
     
 
