@@ -243,13 +243,27 @@
 function signUp(){
     var emailId=document.getElementById("email").value
     var password=document.getElementById("pass").value
-
      localStorage.setItem("userId",emailId)
     localStorage.setItem("userPass",password)
     window.location.href="home.html"
-   
+    
 
 }
+
+function signIn(){
+    var userEmail=document.getElementById("userEmail").value
+    var userPass=document.getElementById("userPass").value
+    var id= localStorage.getItem("userId")
+    var pass= localStorage.getItem("userPass")
+
+    if(userEmail===id&&userPass===pass){
+        alert("logged in")
+    }else{
+        alert("Invalid")
+    }
+
+}
+
 
          
 
